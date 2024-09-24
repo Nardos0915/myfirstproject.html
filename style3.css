@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+.circular-progress {
+    --size: 100px; /* Size of the circular progress bars */
+    width: var(--size);
+    height: var(--size);
+    background-color: #fff; /* White background color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto 20px;
+    border: 6px solid #f8f9fa; /* Outer border matches body background */
+}
+
+.circular-progress:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(var(--color) var(--value)%, #e9ecef var(--value)%); /* lighter grey for the unfilled part */
+}
+
+.circular-progress span {
+    font-size: 1.5rem;
+    z-index: 1;
+    color: black; /* Text color inside the progress circles */
+}
+
+.circular-progress p {
+    position: absolute;
+    bottom: -30px; /* Position the skill name below the circle */
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    .circular-progress {
+        --size: 150px; /* Larger size on wider screens */
+    }
+}

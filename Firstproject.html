@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/brands.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/solid.css">
+    
+  <style>
+     
+     /* Navbar styling */
+     .navbar {
+            background-color: transparent; /* Make the navbar background transparent */
+        }
+
+        .nav-link {
+            transition: color 0.3s ease; /* Smooth transition for hover */
+            padding: 10px; /* Adjust padding if needed */
+        }
+
+        .nav-link:hover {
+            color: orange; /* Change color on hover */
+        }
+
+        /* Remove background and change text color on focus and active states */
+        .nav-link:focus, .nav-link:active {
+            background-color: white; /* Remove the default background */
+            color: orange; /* Optional: Change the text color on focus/active */
+            outline: none; /* Remove outline for focus */
+        }
+
+        .navbar-toggler {
+            border-color: orange; /* Change the border color */
+        }
+
+        .navbar-toggler:hover {
+            background-color:orange; /* Light orange background on hover */
+            color: white; /* Change text color on hover */
+            border: none;
+        }
+
+         /* .navbar-toggler-icon {
+         
+        }  */
+
+        .navbar-toggler:hover .navbar-toggler-icon {
+            background-color: orange; /* Change the icon color on hover */
+        }
+        .navbar-toggler-icon{
+          color:  orange;
+
+        }
+       
+
+    body{
+      background-image: url(./pexels-photo-5503773.webp);
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    a{
+      font-size: 100%;
+    }
+    img{
+      border: 3px solid  orange;
+      border-radius: 10px;
+    }
+   
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand text-white" href="#"><span class="text-warning">N</span>ardos</a>
+            <button class="navbar-toggler border border-warning" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-warning fs-5 mx-2" aria-current="page" href="#">Home</a>
+                    <a class="nav-link fs-5 mx-2" href="about.html">About</a>
+                    <a class="nav-link fs-5 mx-2" href="practise3.html">Project</a>
+                    <a class="nav-link fs-5 mx-2" href="index1.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+      <section style="margin-top: 20%;">
+        <div class="row">
+         <div class="col col-12 col-sm-6 col-md-4 ">
+          
+            <h5 class="text-warning fw-1"> HELLO I'M </h5>
+            <h1 class="text-white">Nardos Solomon</h1>
+
+            <p class="text-white "> A beginner web developer with a passion for creating clean, user-friendly websites. I specialize in front-end development using HTML, CSS, and JavaScript</p>
+            <h3 class="text-white">Passinate <span class="text-warning">Web Developer</span> </h3>
+         </div>
+         <div class="col col-12 col-sm-6 col-md-4 my-20px">
+          <img class="w-75 h-100  bborder-warning  " src="./photo_2024-09-22_14-45-03.jpg" alt="">
+         </div>
+        </div>
+      </section>
+      
+
+      
+      
+  
+  
+  
+    </header>
+  </div>
+</body>
+
+</html>

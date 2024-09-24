@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/brands.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/solid.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+
+    <style>
+        hr {
+            width: 25%;
+
+
+        }
+
+        .border-bottom {
+            color: #ffc107;
+        }
+
+        .hexagon-icon {
+            height: 15px;
+            width: 14px;
+            position: relative;
+            display: block;
+            margin: 5px auto 0;
+        }
+
+        .hexagon-icon:before,
+        .hexagon-icon:after {
+            content: '';
+            background: #febf34;
+            left: 100%;
+            width: 22px;
+            position: absolute;
+            height: 1px;
+            top: 6px;
+            margin-left: 6px;
+        }
+
+        .hexagon-icon i {
+            position: relative;
+            width: 14px;
+            height: 8px;
+            border-left: solid 3px #febf34;
+            border-right: solid 3px #febf34;
+            display: block;
+            margin: 0 auto;
+            top: 3px;
+            z-index: 2;
+        }
+
+        .hexagon-icon i:before {
+            top: -4.9497px;
+            border-top: solid 4.2426px #febf34;
+            border-right: solid 4.2426px #febf34;
+        }
+
+        .hexagon-icon i:before,
+        .hexagon-icon i:after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 9.90px;
+            height: 9.90px;
+            -ms-transform: ;
+            transform: scaleY(0.5774) rotate(-45deg);
+            background-color: inherit;
+            left: -0.9497px;
+        }
+
+        .hexagon-icon i:after {
+            bottom: -4.9497px;
+            border-bottom: solid 4.2426px #febf34;
+            border-left: solid 4.2426px #febf34;
+        }
+
+        .hexagon-icon i:before,
+        .hexagon-icon i:after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 9.90px;
+            height: 9.90px;
+            -ms-transform: ;
+            transform: scaleY(0.5774) rotate(-45deg);
+            background-color: inherit;
+            left: -0.9497px;
+        }
+
+        .hexagon-icon:after {
+            left: auto;
+            right: 100%;
+            margin: 0 6px 0 0;
+        }
+
+        .hexagon-icon:before,
+        .hexagon-icon:after {
+            content: '';
+            background: #febf34;
+            width: 22px;
+            position: absolute;
+            height: 1px;
+            top: 6px;
+        }
+
+        #b1 {
+            border: 1px solid #ffc107;
+            border-radius: 100px;
+        }
+
+        #b1:hover {
+            background-color: #ffc107;
+        }
+
+        #b2 {
+            background-color: #ffc107;
+            border-radius: 100px;
+
+        }
+
+        #b2:hover {
+            background-color: white;
+        }
+
+
+        #i1 {
+            background-color: #ffc107;
+            color: black;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        #i1:hover {
+            background-color: white;
+        }
+
+        #i2 {
+            background-color: white;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        #i2:hover {
+            background-color: #ffc107;
+            color: black;
+        }
+
+        .skill {
+            margin-bottom: 20px;
+        }
+
+        .skill-name {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .progress {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 50%;
+            /* Full width */
+            height: 20px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            /* Centering text vertically */
+            background-color: #febf34;
+            /* Updated color */
+            transition: width 0.5s;
+            /* Smooth transition */
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 600px) {
+            .skill-name {
+                font-size: 14px;
+                /* Smaller font size on smaller screens */
+            }
+
+            .progress {
+                height: 15px;
+                /* Smaller height for progress bars */
+            }
+
+            .progress-bar {
+                line-height: 15px;
+                /* Centering text vertically in smaller height */
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="text-center">ABOUT ME</h1>
+            <span class="hexagon-icon"><i></i></span>
+
+            <p class="text-secondary text-center my-3">Hello,I'm a ul/ux Designer and frontend Develper from Ethipia.I
+                have experience for 6 month</p>
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="container-fluid">
+                <img class="mx-4" style="width: 300px" ; src="./photo_2024-09-22_14-45-03.jpg" alt="Image">
+
+            </div>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 ">
+            <h3 class="fs-4 mt-4"> PROFFESIONAL PROFILE</h1>
+
+                <hr style="width: 25%;border: 2px solid #ffc107;">
+                <p class="text-secondary">I am a budding web developer with six months of hands-on experience in
+                    front-end development. My journey began when I took my first steps in coding by exploring HTML and
+                    CSS, quickly realizing my passion for building intuitive and visually engaging websites.I am
+                    passionate about creating websites that not only look great but also provide an excellent user
+                    experience.</p>
+                <p class="text-secondary">I am highly interested in front-end technologies and strive to improve my
+                    understanding of responsive design and JavaScript frameworks. I love experimenting with CSS to
+                    create unique and aesthetically pleasing layouts.. I also like watching tutorials and reading blogs
+                    on the latest trends in web development to stay up-to-date.
+                </p>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <form>
+                <label for="name"
+                    class="form-label border-light border-bottom border-bottom  border-top p-2 my-4">Name<span
+                        class="text-secondary">:Nardos Legese</span></label><br>
+                <label for="email" class="form-label border-bottom  border-top  border-light  p-2  ">Email<span
+                        class="text-secondary">:nardoslegese0915@gmail.com</span></label><br>
+                <label for="phonenumber" class="form-label border-bottom  border-top  border-light  p-2 ">phone<span
+                        class="text-secondary">:0929100171</span></label><br>
+                <label for="phonenumber"
+                    class="form-label border-bottom  border-top  border-light  p-2 ">Nationality<span
+                        class="text-secondary">:Eritrean</span></label><br>
+
+                <label for="address" class="form-label border-bottom  border-top  border-light  p-2 ">Address<span
+                        class="text-secondary">:werda 12,lafto micheal</span class="text-secondary"></label>
+
+                <div>
+                    <button id="b1" class="btn  rounded-right rounded-left px-2  text-center mx-3 my-3"> <i id="i1"
+                            class="fa-solid fa-circle-down"></i>
+                        DOWNLOAD CV </button>
+                    <button id="b2" class="btn btn-warning  rounded-right  rounded-left px-4 text-center"><i id="i2"
+                            class="fa-solid fa-user"></i>
+                        </i>
+
+                        HIRE ME </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="text-center">Skills</h1>
+        <span class="hexagon-icon"><i></i></span>
+        <p class="text-center">Aspiring web developer with a passion for creating engaging and user-friendly
+            websites. Recently completed a comprehensive online course in HTML, CSS, and JavaScript, and
+            currently expanding knowledge in responsive design and web accessibility.</p>
+
+    </div>
+
+    <div class="container-fluid mx-3">
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 90%;">90%</div>
+            </div>
+        </div>
+
+
+        <div class="skill ">
+            <div class="skill-name">CSS</div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 79%;">79%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 50%;">50%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Bootstrap</div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
